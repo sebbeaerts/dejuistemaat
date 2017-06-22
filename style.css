@@ -13,6 +13,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+    background-image: url("images/hilde.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -21,15 +24,18 @@ header {
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: flex-end;
-    //
-    flex-grow: 1;
+    flex-grow: 0.1;
+    border-bottom: 2vh solid #da291c;
 }
 
 img#logo {
+    /*border: 5px solid green;*/
+    background-color: #da291c;
     height: 10vw;
 }
 
 nav {
+    /*border: 5px solid yellow;*/
     /* items */
     width: 60%;
     /* container */
@@ -38,22 +44,27 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    /**/
+    margin: 2vh 2vw;
 }
 
 nav a {
+    /*border: 5px solid orange;*/
+    font-weight: bold;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 nav a:hover {
-    color: red;
+    color: #da291c;
 }
 
 main {
+    /*border: 5px solid purple;*/
     flex-grow: 2;
 }
 
 footer {
-    flex-grow: 0.1;
-    background-color: red;
+    flex-grow: 0.05;
+    background-color: #da291c;
 }
