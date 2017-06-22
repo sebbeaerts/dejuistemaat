@@ -32,4 +32,4 @@ first steps to design
 
 ## Screenshot ## 
 
-![](screenshots/d3.png)
+![](screenshots/d3.PNG)
